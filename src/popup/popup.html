@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RedParse</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+      <img src="../../icons/icon48.png" alt="RedParse" class="logo" />
+      <span class="title">RedParse</span>
+    </div>
+    <button id="refreshBtn" class="icon-btn" title="重新解析当前页面">刷新</button>
+  </header>
+
+  <main id="mainView" class="main">
+    <div class="state-box">
+      <p class="state-title">正在读取当前笔记…</p>
+    </div>
+  </main>
+
+  <footer id="downloadBar" class="footer hidden">
+    <label class="field">
+      <span class="field-label">文件名</span>
+      <input id="filenameInput" type="text" class="input" spellcheck="false" />
+    </label>
+
+    <div class="footer-row">
+      <label class="checkbox">
+        <input id="saveAsCheckbox" type="checkbox" />
+        <span>每次询问保存位置</span>
+      </label>
+      <button id="downloadBtn" class="btn-primary">确定下载</button>
+    </div>
+
+    <div id="statusBanner" class="status-banner hidden"></div>
+  </footer>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

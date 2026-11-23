@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "origin": "https://www.xiaohongshu.com",
+    "pathname": "/explore/6901ec39000000000700238c",
+    "hasXsecToken": true,
+    "urlNoteId": "6901ec39000000000700238c",
+    "title": "- 小红书"
+  },
+  "pinia": {
+    "exists": true,
+    "currentNoteId": "6901ec39000000000700238c",
+    "matchedId": "6901ec39000000000700238c",
+    "matchedEntry": {
+      "note": {
+        "noteId": "6901ec39000000000700238c",
+        "title": "",
+        "desc": "",
+        "type": "video",
+        "user": {
+          "nickname": "Rhinowalk犀牛·漫步"
+        },
+        "video": {
+          "capa": { "duration": 24 },
+          "media": {
+            "videoId": 137643377695151220,
+            "stream": {
+              "EF4": [
+                {
+                  "avgBitrate": 2181875,
+                  "backupUrls": ["http://sns-bak-v6.xhscdn.com/stream/79/110/258/sample_258.mp4"],
+                  "duration": 24100,
+                  "format": "mp4",
+                  "fps": 30,
+                  "height": 1280,
+                  "masterUrl": "http://sns-video-qc.xhscdn.com/stream/79/110/258/sample_258.mp4?sign=demo&t=123",
+                  "qualityType": "HD",
+                  "size": 6572900,
+                  "streamDesc": "hd_258",
+                  "streamType": 258,
+                  "videoBitrate": 2118372,
+                  "videoCodec": "EF4",
+                  "width": 720
+                }
+              ],
+              "EF5": [
+                {
+                  "avgBitrate": 970850,
+                  "backupUrls": ["http://sns-bak-v6.xhscdn.com/stream/79/110/114/sample_114.mp4"],
+                  "duration": 24100,
+                  "format": "mp4",
+                  "fps": 30,
+                  "height": 1280,
+                  "masterUrl": "http://sns-video-qc.xhscdn.com/stream/79/110/114/sample_114.mp4?sign=demo&t=123",
+                  "qualityType": "HD",
+                  "size": 2924686,
+                  "streamDesc": "WEB_114",
+                  "streamType": 114,
+                  "videoBitrate": 835208,
+                  "videoCodec": "EF5",
+                  "width": 720
+                },
+                {
+                  "avgBitrate": 1006914,
+                  "backupUrls": ["http://sns-bak-v6.xhscdn.com/stream/1/110/115/sample_115.mp4"],
+                  "duration": 24100,
+                  "format": "mp4",
+                  "fps": 30,
+                  "height": 1920,
+                  "masterUrl": "http://sns-video-qc.xhscdn.com/stream/1/110/115/sample_115.mp4?sign=demo&t=123",
+                  "qualityType": "HD",
+                  "size": 3033331,
+                  "streamDesc": "WEB_115",
+                  "streamType": 115,
+                  "videoBitrate": 871274,
+                  "videoCodec": "EF5",
+                  "width": 1080
+                }
+              ],
+              "EF6": [],
+              "EF7": []
+            }
+          }
+        }
+      }
+    }
+  }
+}
